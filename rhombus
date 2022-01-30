@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+	FILE*fp
+	char str[10],str2[10];
+	fp = fopen("2022.txt","w/r");
+	//fprintf(fp,"%s","Hello all!");
+	fscanf(fp,"%s%s",str1,str2);
+	printf("%s%s",str1,str2);
+	fclose(fp)
+}
